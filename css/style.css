@@ -566,9 +566,9 @@ body.opened .hero-anim-3d { animation: hero3d 1.6s var(--ease-out) var(--d, 0s) 
   filter: drop-shadow(0 2px 4px rgba(0,0,0,.6)); animation: shimmer 6s linear infinite;
 }
 .arch-tag {
-  left: 50%; right: auto; bottom: -3%; translate: -50% 0; z-index: 3; opacity: 1;
+  left: 50%; right: auto; bottom: -3%; translate: -50% 0; z-index: 3; opacity: 1; font-family: var(--f-display) !important; font-weight: 700; letter-spacing: .16em !important; text-transform: uppercase;
   padding: .12rem .9rem .18rem; border-radius: 999px; white-space: nowrap;
-  font-size: 3.8cqi; color: var(--maroon-900); background: var(--gold-grad);
+  font-size: 2.9cqi; color: var(--maroon-900); background: var(--gold-grad);
   box-shadow: 0 6px 12px -4px rgba(0,0,0,.6), 0 0 0 2px rgba(42,4,11,.9), 0 0 0 3px rgba(233,199,123,.6);
 }
 .af-outer { stroke-width: 1.8; filter: drop-shadow(0 0 5px rgba(233,199,123,.6)); }
