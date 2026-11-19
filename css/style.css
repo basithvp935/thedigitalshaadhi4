@@ -554,11 +554,11 @@ body.opened .hero-anim-3d { animation: hero3d 1.6s var(--ease-out) var(--d, 0s) 
   animation: stageGlow 5s ease-in-out infinite;
 }
 .arch-person {
-  position: absolute; bottom: 1%; height: 82%; width: auto; max-width: none;
+  position: absolute; left: 50%; translate: -50% 0; bottom: 3%; width: auto; max-width: none;
   filter: drop-shadow(0 10px 12px rgba(0,0,0,.55));
 }
-.arch-groom .arch-person { left: -50%; }
-.arch-bride .arch-person { left: 17%; }
+.arch-groom .arch-person { height: 78%; translate: -46% 0; }
+.arch-bride .arch-person { height: 72%; translate: -56% 0; }
 .arch-fade { position: absolute; left: 0; right: 0; bottom: 0; height: 26%; background: linear-gradient(transparent, rgba(42,4,11,.95) 70%); }
 .arch-initial {
   top: 5%; font-size: 7cqi; z-index: 2;
